@@ -1,0 +1,24 @@
+encoding: UTF-8
+permalink: /:title.html 
+baseurl: http://www.xamarinforms101.com
+
+port: 3000
+pygments: false
+
+lsi: false
+# markdown: kramdown
+markdown: rdiscount
+# enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
+rdiscount:
+  extensions: [smart]
+
+collections:
+  controls:
+    output: true
+
+# Since GH pages override this to "true", we test this value to see if we are running locally
+safe: false
+
+title : Xamarin Forms 101
+analytics: UA-317338-24
+disqus: forms101
